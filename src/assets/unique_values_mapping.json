@@ -1,0 +1,37 @@
+{
+    "DIABETES": [
+        "INSULIN",
+        "NO",
+        "NON-INSULIN"
+    ],
+    "FNSTATUS2": [
+        "Independent",
+        "Partially Dependent",
+        "Totally Dependent"
+    ],
+    "ASACLAS": [
+        "1-No Disturb",
+        "2-Mild Disturb",
+        "3-Severe Disturb",
+        "4-Life Threat"
+    ],
+    "ANESTHES": [
+        "General",
+        "Spinal",
+        "Epidural",
+        "MAC/IV Sedation",
+        "Regional"
+    ],
+    "BLEEDDIS": [
+        "No",
+        "Yes"
+    ],
+    "ETOH": [
+        "No",
+        "Yes"
+    ],
+    "SEX": [
+        "female",
+        "male"
+    ]
+}
