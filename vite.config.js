@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "uka_sd_los_calc",
+  base: "/v2_UKA_Models_Frontend/",
   plugins: [
     vue(),
     vueDevTools(),
