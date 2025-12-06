@@ -1,6 +1,19 @@
-# uka_sd_los_v2
+# UKA Surgical Duration and Length of Stay Prediction
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository contains the code for front-end of the UKA
+Surgical Duration and Length of Stay Prediction project.
+
+## Project Structure and Workflow
+* This is the frontend:
+  * This is deployed to [GitHub Pages](https://github.com/sitek94/vite-deploy-demo?tab=readme-ov-file)
+  * This project is built using Vite + Vue
+  * Any changes pushed to the `main` branch will be automatically deployed to GitHub Pages.
+    * Pushing to `main` triggers the GitHub Action workflow in `deploy.yml` to run `npm run build` and deploy the built files to the `gh-pages` branch.
+* All model inference and SHAP value calculations are done on the backend:
+  * backend code [here](https://github.com/Omnitragedy/Backend_UKA_Models) 
+  * The backend is deployed to [Modal](https://modal.com/), which gives GPU cloud computing power and model storage space.
+  * The backend is accessed via an API endpoint.
+
 
 ## Recommended IDE Setup
 
@@ -14,25 +27,3 @@ This template should help get you started developing with Vue 3 in Vite.
 - Firefox:
   - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
   - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
