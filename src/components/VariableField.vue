@@ -164,9 +164,16 @@ function clearSelection() {
   margin-bottom: 0.35rem;
   font-size: 0.95rem;
 }
+
+.vf-title {
+  font-weight: 400;
+  color: #111111;
+  font-size: 0.9rem;
+}
+
 .vf-help {
   font-weight: 400;
-  color: #666;
+  color: #222222;
   font-size: 0.9rem;
 }
 .vf-control input[type="text"],
@@ -191,6 +198,7 @@ function clearSelection() {
 }
 .radio-option {
   display: flex;
+  color: #222222;
   align-items: center;
   gap: 0.4rem;
   font-size: 0.95rem;
